@@ -12,6 +12,7 @@ These steps publish a new version to GitHub and to npm. The official [Joplin plu
 
 1. Set the new version in **both** `src/manifest.json` and `package.json`. `build.sh` refuses to build if they differ.
 2. Add an entry to `CHANGELOG.md`.
+   In `README.md`, change the version in the **Joplin installs** badge URL (`%271.0.0%27`) to the new version. Joplin counts installs for each version separately.
 3. Commit, then tag the release and push it:
    ```sh
    git commit -am "Release 1.0.1"

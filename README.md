@@ -1,5 +1,11 @@
 # PDF Header & Footer for Joplin
 
+[![npm version](https://img.shields.io/npm/v/joplin-plugin-pdf-header-footer)](https://www.npmjs.com/package/joplin-plugin-pdf-header-footer)
+[![npm downloads](https://img.shields.io/npm/dm/joplin-plugin-pdf-header-footer)](https://www.npmjs.com/package/joplin-plugin-pdf-header-footer)
+[![GitHub downloads](https://img.shields.io/github/downloads/tnoahc/joplin-pdf-header-footer/total?label=GitHub%20downloads)](https://github.com/tnoahc/joplin-pdf-header-footer/releases)
+[![Joplin installs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjoplin%2Fplugins%2Fmaster%2Fstats.json&query=%24%5B%27plugin.tnoahc.pdf-header-footer%27%5D%5B%271.0.0%27%5D.downloadCount&label=Joplin%20installs)](https://joplinapp.org/plugins/plugin/plugin.tnoahc.pdf-header-footer/)
+[![Latest release](https://img.shields.io/github/v/release/tnoahc/joplin-pdf-header-footer)](https://github.com/tnoahc/joplin-pdf-header-footer/releases/latest)
+
 A [Joplin](https://joplinapp.org/) plugin that adds a header and footer to **every page** of a note when you export it to PDF. You set the text in Joplin's settings, so you don't need to edit CSS.
 
 - Separate left, centre and right text for both the header and the footer

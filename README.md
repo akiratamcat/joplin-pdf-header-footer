@@ -15,9 +15,15 @@ Joplin desktop 3.2 or later.
 
 ## Installation
 
+In Joplin, open **Tools → Options → Plugins**, search for **PDF Header & Footer**, click **Install**, and restart Joplin.
+
+To install it manually instead:
+
 1. Download `plugin.tnoahc.pdf-header-footer.jpl` from the [latest release](https://github.com/tnoahc/joplin-pdf-header-footer/releases/latest).
 2. In Joplin, open **Tools → Options → Plugins**, click the ⚙ button, and choose **Install from file**.
 3. Select the downloaded `.jpl` file and restart Joplin.
+
+The plugin is also published on npm as [`joplin-plugin-pdf-header-footer`](https://www.npmjs.com/package/joplin-plugin-pdf-header-footer).
 
 ## Usage
 

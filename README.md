@@ -7,6 +7,7 @@ A [Joplin](https://joplinapp.org/) plugin that adds a header and footer to **eve
 - Optional lines under the header and above the footer
 - Adjustable font size and top and bottom page margins
 - The note viewer is unchanged: the header and footer appear only in exported PDFs
+<img width="3072" height="1564" alt="Screenshot From 2026-11-06 10-39-20" src="https://github.com/user-attachments/assets/6e5e851d-964f-4ceb-a762-cf42fea7e882" />
 
 ## Requirements
 

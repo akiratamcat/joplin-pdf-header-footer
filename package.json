@@ -1,20 +1,22 @@
 {
-  "name": "joplin-plugin-pdf-header-footer",
-  "version": "1.0.0",
-  "description": "Joplin plugin that adds a configurable header and footer to every page of notes exported to PDF.",
+  "name": "joplin-plugin-pdf-header-footer-i18n",
+  "version": "1.1.0",
+  "description": "Joplin plugin that adds a configurable header and footer to every page of notes exported to PDF. Unofficial fork with a translated settings UI (test build).",
+  "private": true,
   "scripts": {
     "dist": "sh build.sh",
+    "test": "sh build.sh && node tools/test-i18n.js",
     "prepublishOnly": "sh build.sh"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tnoahc/joplin-pdf-header-footer.git"
+    "url": "git+https://github.com/akiratamcat/joplin-pdf-header-footer.git"
   },
-  "homepage": "https://github.com/tnoahc/joplin-pdf-header-footer#readme",
+  "homepage": "https://github.com/akiratamcat/joplin-pdf-header-footer#readme",
   "bugs": {
-    "url": "https://github.com/tnoahc/joplin-pdf-header-footer/issues"
+    "url": "https://github.com/akiratamcat/joplin-pdf-header-footer/issues"
   },
-  "author": "Noah C. Tarinyebwa",
+  "author": "Noah C. Tarinyebwa, akira tamcat",
   "license": "MIT",
   "keywords": [
     "joplin-plugin"

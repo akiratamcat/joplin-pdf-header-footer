@@ -1,20 +1,21 @@
 {
 	"manifest_version": 1,
-	"id": "plugin.tnoahc.pdf-header-footer",
+	"id": "plugin.tnoahc.pdf-header-footer-i18n",
 	"app_min_version": "3.2",
-	"version": "1.0.0",
-	"name": "PDF Header & Footer",
-	"description": "Adds a configurable header and footer, with page numbers, to every page of notes exported to PDF.",
-	"author": "Noah C. Tarinyebwa",
-	"homepage_url": "https://github.com/tnoahc/joplin-pdf-header-footer#readme",
-	"repository_url": "https://github.com/tnoahc/joplin-pdf-header-footer",
+	"version": "1.1.0",
+	"name": "PDF Header & Footer i18n",
+	"description": "Adds a configurable header and footer, with page numbers, to every page of notes exported to PDF. Unofficial fork with a translated settings UI (test build).",
+	"author": "Noah C. Tarinyebwa, akira tamcat",
+	"homepage_url": "https://github.com/akiratamcat/joplin-pdf-header-footer#readme",
+	"repository_url": "https://github.com/akiratamcat/joplin-pdf-header-footer",
 	"platforms": ["desktop"],
 	"keywords": [
 		"pdf",
 		"export",
 		"header",
 		"footer",
-		"page numbers"
+		"page numbers",
+		"i18n"
 	],
 	"categories": [
 		"files"

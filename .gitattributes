@@ -1,0 +1,2 @@
+# build.sh must keep LF line endings, or sh fails on Windows checkouts.
+*.sh text eol=lf

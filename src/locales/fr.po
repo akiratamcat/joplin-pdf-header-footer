@@ -1,0 +1,73 @@
+# French translation for the PDF Header & Footer i18n Joplin plugin.
+# This file is distributed under the same license as the plugin (MIT).
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: joplin-plugin-pdf-header-footer-i18n 1.1.0\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Settings section title
+#: src/index.js
+msgid "PDF Header & Footer"
+msgstr "En-tête et pied de page PDF"
+
+#. Settings section description
+#: src/index.js
+msgid "Text printed at the top and bottom of every page when a note is exported to PDF."
+msgstr "Texte imprimé en haut et en bas de chaque page lorsqu'une note est exportée en PDF."
+
+#. Help text under each header/footer field. Keep {page}, {pages} and {date} as is.
+#: src/index.js
+msgid "Placeholders: {page}, {pages}, {date}. Leave empty for nothing."
+msgstr "Espaces réservés : {page}, {pages}, {date}. Laisser vide pour ne rien afficher."
+
+#: src/index.js
+msgid "Header - left"
+msgstr "En-tête - gauche"
+
+#: src/index.js
+msgid "Header - centre"
+msgstr "En-tête - centre"
+
+#: src/index.js
+msgid "Header - right"
+msgstr "En-tête - droite"
+
+#: src/index.js
+msgid "Footer - left"
+msgstr "Pied de page - gauche"
+
+#: src/index.js
+msgid "Footer - centre"
+msgstr "Pied de page - centre"
+
+#: src/index.js
+msgid "Footer - right"
+msgstr "Pied de page - droite"
+
+#: src/index.js
+msgid "Draw a line under the header and above the footer"
+msgstr "Tracer une ligne sous l'en-tête et au-dessus du pied de page"
+
+#: src/index.js
+msgid "Font size (pt)"
+msgstr "Taille de police (pt)"
+
+#: src/index.js
+msgid "Top page margin (mm)"
+msgstr "Marge supérieure (mm)"
+
+#: src/index.js
+msgid "Space reserved for the header."
+msgstr "Espace réservé à l'en-tête."
+
+#: src/index.js
+msgid "Bottom page margin (mm)"
+msgstr "Marge inférieure (mm)"
+
+#: src/index.js
+msgid "Space reserved for the footer."
+msgstr "Espace réservé au pied de page."

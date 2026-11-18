@@ -1,0 +1,73 @@
+# Japanese translation for the PDF Header & Footer i18n Joplin plugin.
+# This file is distributed under the same license as the plugin (MIT).
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: joplin-plugin-pdf-header-footer-i18n 1.1.0\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Settings section title
+#: src/index.js
+msgid "PDF Header & Footer"
+msgstr "PDF ヘッダー・フッター"
+
+#. Settings section description
+#: src/index.js
+msgid "Text printed at the top and bottom of every page when a note is exported to PDF."
+msgstr "ノートを PDF にエクスポートしたとき、各ページの上部と下部に印字するテキストです。"
+
+#. Help text under each header/footer field. Keep {page}, {pages} and {date} as is.
+#: src/index.js
+msgid "Placeholders: {page}, {pages}, {date}. Leave empty for nothing."
+msgstr "プレースホルダー: {page}、{pages}、{date}。空欄にすると何も表示されません。"
+
+#: src/index.js
+msgid "Header - left"
+msgstr "ヘッダー - 左"
+
+#: src/index.js
+msgid "Header - centre"
+msgstr "ヘッダー - 中央"
+
+#: src/index.js
+msgid "Header - right"
+msgstr "ヘッダー - 右"
+
+#: src/index.js
+msgid "Footer - left"
+msgstr "フッター - 左"
+
+#: src/index.js
+msgid "Footer - centre"
+msgstr "フッター - 中央"
+
+#: src/index.js
+msgid "Footer - right"
+msgstr "フッター - 右"
+
+#: src/index.js
+msgid "Draw a line under the header and above the footer"
+msgstr "ヘッダーの下とフッターの上に線を引く"
+
+#: src/index.js
+msgid "Font size (pt)"
+msgstr "フォントサイズ (pt)"
+
+#: src/index.js
+msgid "Top page margin (mm)"
+msgstr "上余白 (mm)"
+
+#: src/index.js
+msgid "Space reserved for the header."
+msgstr "ヘッダー用に確保する領域です。"
+
+#: src/index.js
+msgid "Bottom page margin (mm)"
+msgstr "下余白 (mm)"
+
+#: src/index.js
+msgid "Space reserved for the footer."
+msgstr "フッター用に確保する領域です。"

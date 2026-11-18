@@ -1,8 +1,10 @@
 #!/bin/sh
 # Builds the files the Joplin plugin repository reads from the npm package:
-#   publish/<plugin id>.jpl   - the plugin (a plain tar archive of src/)
+#   publish/<plugin id>.jpl   - the plugin (a plain tar archive of dist/)
 #   publish/<plugin id>.json  - the manifest plus the .jpl hash and git commit
-# The plugin is plain JavaScript, so there is no compile step.
+# The plugin is plain JavaScript, so there is no compile step. The only build
+# step converts the UI translations in src/locales/*.po to JavaScript and
+# prepends them to index.js in dist/. This needs Node.js.
 set -e
 cd "$(dirname "$0")"
 
@@ -17,9 +19,13 @@ if [ "$manifest_version" != "$package_version" ]; then
 	exit 1
 fi
 
-rm -rf publish
-mkdir -p publish
-tar -cf "publish/$id.jpl" -C src manifest.json index.js contentScript.js
+rm -rf dist publish
+mkdir -p dist publish
+node tools/po2js.js src/locales dist/translations.js
+cat dist/translations.js src/index.js > dist/index.js
+rm dist/translations.js
+cp src/manifest.json src/contentScript.js dist/
+tar -cf "publish/$id.jpl" -C dist manifest.json index.js contentScript.js
 
 hash=$(sha256sum "publish/$id.jpl" | cut -d ' ' -f 1)
 commit=""

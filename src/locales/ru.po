@@ -1,0 +1,73 @@
+# Russian translation for the PDF Header & Footer i18n Joplin plugin.
+# This file is distributed under the same license as the plugin (MIT).
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: joplin-plugin-pdf-header-footer-i18n 1.1.0\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Settings section title
+#: src/index.js
+msgid "PDF Header & Footer"
+msgstr "Колонтитулы PDF"
+
+#. Settings section description
+#: src/index.js
+msgid "Text printed at the top and bottom of every page when a note is exported to PDF."
+msgstr "Текст, печатаемый вверху и внизу каждой страницы при экспорте заметки в PDF."
+
+#. Help text under each header/footer field. Keep {page}, {pages} and {date} as is.
+#: src/index.js
+msgid "Placeholders: {page}, {pages}, {date}. Leave empty for nothing."
+msgstr "Заполнители: {page}, {pages}, {date}. Оставьте пустым, чтобы ничего не выводить."
+
+#: src/index.js
+msgid "Header - left"
+msgstr "Верхний колонтитул - слева"
+
+#: src/index.js
+msgid "Header - centre"
+msgstr "Верхний колонтитул - по центру"
+
+#: src/index.js
+msgid "Header - right"
+msgstr "Верхний колонтитул - справа"
+
+#: src/index.js
+msgid "Footer - left"
+msgstr "Нижний колонтитул - слева"
+
+#: src/index.js
+msgid "Footer - centre"
+msgstr "Нижний колонтитул - по центру"
+
+#: src/index.js
+msgid "Footer - right"
+msgstr "Нижний колонтитул - справа"
+
+#: src/index.js
+msgid "Draw a line under the header and above the footer"
+msgstr "Проводить линию под верхним и над нижним колонтитулом"
+
+#: src/index.js
+msgid "Font size (pt)"
+msgstr "Размер шрифта (pt)"
+
+#: src/index.js
+msgid "Top page margin (mm)"
+msgstr "Верхнее поле страницы (мм)"
+
+#: src/index.js
+msgid "Space reserved for the header."
+msgstr "Место для верхнего колонтитула."
+
+#: src/index.js
+msgid "Bottom page margin (mm)"
+msgstr "Нижнее поле страницы (мм)"
+
+#: src/index.js
+msgid "Space reserved for the footer."
+msgstr "Место для нижнего колонтитула."

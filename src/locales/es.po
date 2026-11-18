@@ -1,0 +1,73 @@
+# Spanish translation for the PDF Header & Footer i18n Joplin plugin.
+# This file is distributed under the same license as the plugin (MIT).
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: joplin-plugin-pdf-header-footer-i18n 1.1.0\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Settings section title
+#: src/index.js
+msgid "PDF Header & Footer"
+msgstr "Encabezado y pie de página PDF"
+
+#. Settings section description
+#: src/index.js
+msgid "Text printed at the top and bottom of every page when a note is exported to PDF."
+msgstr "Texto que se imprime en la parte superior e inferior de cada página al exportar una nota a PDF."
+
+#. Help text under each header/footer field. Keep {page}, {pages} and {date} as is.
+#: src/index.js
+msgid "Placeholders: {page}, {pages}, {date}. Leave empty for nothing."
+msgstr "Marcadores: {page}, {pages}, {date}. Déjelo vacío para no mostrar nada."
+
+#: src/index.js
+msgid "Header - left"
+msgstr "Encabezado - izquierda"
+
+#: src/index.js
+msgid "Header - centre"
+msgstr "Encabezado - centro"
+
+#: src/index.js
+msgid "Header - right"
+msgstr "Encabezado - derecha"
+
+#: src/index.js
+msgid "Footer - left"
+msgstr "Pie de página - izquierda"
+
+#: src/index.js
+msgid "Footer - centre"
+msgstr "Pie de página - centro"
+
+#: src/index.js
+msgid "Footer - right"
+msgstr "Pie de página - derecha"
+
+#: src/index.js
+msgid "Draw a line under the header and above the footer"
+msgstr "Dibujar una línea debajo del encabezado y encima del pie de página"
+
+#: src/index.js
+msgid "Font size (pt)"
+msgstr "Tamaño de fuente (pt)"
+
+#: src/index.js
+msgid "Top page margin (mm)"
+msgstr "Margen superior (mm)"
+
+#: src/index.js
+msgid "Space reserved for the header."
+msgstr "Espacio reservado para el encabezado."
+
+#: src/index.js
+msgid "Bottom page margin (mm)"
+msgstr "Margen inferior (mm)"
+
+#: src/index.js
+msgid "Space reserved for the footer."
+msgstr "Espacio reservado para el pie de página."

@@ -1,5 +1,7 @@
 # Releasing
 
+> **i18n fork:** this fork is a personal test build. Releases are GitHub pre-releases only. Don't run `npm publish` (`package.json` is marked `private`), and don't open pull requests to the original repository.
+
 These steps publish a new version to GitHub and to npm. The official [Joplin plugin repository](https://github.com/joplin/plugins) picks up new npm versions automatically, usually within a few hours.
 
 ## One-time setup
@@ -23,7 +25,7 @@ These steps publish a new version to GitHub and to npm. The official [Joplin plu
    ```sh
    sh build.sh
    ```
-   The build writes `publish/plugin.tnoahc.pdf-header-footer.jpl` and `publish/plugin.tnoahc.pdf-header-footer.json`.
+   The build writes `publish/plugin.tnoahc.pdf-header-footer-i18n.jpl` and `publish/plugin.tnoahc.pdf-header-footer-i18n.json`.
 5. Test the `.jpl` with **Tools → Options → Plugins → ⚙ → Install from file**.
 6. On GitHub, open **Releases → Draft a new release** and pick the tag. Paste the changelog entry and attach the `.jpl`.
 7. Publish to npm:
@@ -32,4 +34,4 @@ These steps publish a new version to GitHub and to npm. The official [Joplin plu
    ```
    `prepublishOnly` rebuilds `publish/` automatically. Only `publish/`, `CHANGELOG.md`, `package.json`, `README.md` and `LICENSE` are uploaded.
 
-The plugin ID (`plugin.tnoahc.pdf-header-footer`) must never change after the first npm release, or Joplin will treat the plugin as a different one.
+The plugin ID (`plugin.tnoahc.pdf-header-footer-i18n`) must never change after the first npm release, or Joplin will treat the plugin as a different one.
